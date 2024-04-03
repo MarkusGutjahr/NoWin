@@ -12,14 +12,9 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.nowin.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_lifecounter"
+        android:name="com.example.nowin.ui.lifecounter.LifecounterFragment"
+        android:label="@string/menu_lifecounter"
+        tools:layout="@layout/fragment_lifecounter" />
 
-    <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.nowin.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
 </navigation>
